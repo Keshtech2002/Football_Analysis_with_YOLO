@@ -215,8 +215,22 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-input_videos/*
-models/*
+
+#input videos Folder
+input_videos/*.mp4
+
+
+
+# Models Folder
+models/best.pt
+models/last.pt
+models/yolov5_train.zip
+
+
 output_videos/*
-runs/*
+
+# runs Folder
+runs/detect/
+
+
 yolo11s.pt
