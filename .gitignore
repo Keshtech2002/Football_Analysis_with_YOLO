@@ -229,6 +229,8 @@ models/yolov5_train.zip
 
 
 output_videos/*
+!output_videos/cropped_image.jpg
+!output_videos/output_video.avi
 
 # runs Folder
 runs/detect/
